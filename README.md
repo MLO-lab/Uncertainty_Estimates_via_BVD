@@ -7,8 +7,6 @@ The official source code to [Uncertainty Estimates of Predictions via a General 
 For quality of life, the following Pytorch implementation should easily work via Copy-Pasting.
 It differs slightly from the experiment code, since there were unexpectedly positive mathematical results after the experiments had finished.
 
-### Pytorch
-
 ```python
 import torch
 
