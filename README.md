@@ -62,12 +62,14 @@ They are feasible to run locally on a laptop (they should finish in less than an
 These experiments can be found in `CIFAR10_ResNet.ipynb`.
 They are expensive to evaluate and require a basic GPU.
 The weight initialization ensembles are locally trained.
+The data is supposed to be stored in `../data/`.
 
 ### ResNet on ImageNet and ImageNet-C (Figure 7)
 
 These experiments can be found in `ImageNet_ResNet.ipynb`.
 They are very expensive to evaluate and require an advanced GPU.
 The weight initialization ensembles are downloaded from `https://github.com/SamsungLabs/pytorch-ensembles` and should be placed in a folder `../saved_models/` on the same folder level of this repository.
+The data is supposed to be stored in `../data/`.
 
 ## Attribution
 
