@@ -44,6 +44,16 @@ def d_LSE(a, b):
 ## Experiments
 
 All experiments are run and plotted in Jupyter notebooks.
+Installing the full environment might only be necessary for the CIFAR10 and ImageNet experiments.
+
+### Environment Setup
+
+The following allows to create and to run a python environment with all required dependencies using [miniconda](https://docs.conda.io/en/latest/miniconda.html): 
+
+```(bash)
+conda env create -f environment.yml
+conda activate UQ
+```
 
 ### Iris Confidence Regions (Figure 4)
 
