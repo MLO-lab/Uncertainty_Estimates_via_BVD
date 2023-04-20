@@ -66,7 +66,19 @@ The data is supposed to be stored in `../data/`.
 
 These experiments can be found in `ImageNet_ResNet.ipynb`.
 They are very expensive to evaluate and require an advanced GPU.
-The weight initialization ensembles are downloaded from `https://github.com/SamsungLabs/pytorch-ensembles` and should be placed in a folder `../saved_models/` on the same folder level of this repository.
+The weight initialization ensembles are taken from https://github.com/SamsungLabs/pytorch-ensembles.
+For this, download the folder `deepens_imagenet` from [here](https://disk.yandex.ru/d/qwwESfJkkO48Bw?w=1) and extract it into a folder `../saved_models/`.
+This can be either done manually or by
+```
+pip3 install wldhx.yadisk-direct
+
+% if folder does not exist yet
+mkdir ../saved_models
+
+% ImageNet
+curl -L $(yadisk-direct https://yadi.sk/d/rdk6ylF5mK8ptw?w=1) -o ../saved_models/deepens_imagenet.zip
+unzip deepens_imagenet.zip 
+```
 The data is supposed to be stored in `../data/`.
 
 ## Attribution
