@@ -90,14 +90,14 @@ They are feasible to run locally on a laptop (they should finish in less than an
 ### ResNet on CIFAR10 and CIFAR10-C (Figure 1)
 
 These experiments can be found in `CIFAR10_ResNet.ipynb`.
-They are expensive to evaluate and require a basic GPU.
+They are expensive to evaluate and require a basic GPU (they needed >1 hour on a single RTX5000).
 The weight initialization ensembles are locally trained.
 The data is supposed to be stored in `../data/`.
 
 ### ResNet on ImageNet and ImageNet-C (Figure 7)
 
 These experiments can be found in `ImageNet_ResNet.ipynb`.
-They are very expensive to evaluate and require an advanced GPU.
+They are very expensive to evaluate and require an advanced GPU (they needed >10 hours on a single RTX5000).
 The weight initialization ensembles are taken from https://github.com/SamsungLabs/pytorch-ensembles.
 For this, download the folder `deepens_imagenet` from [here](https://disk.yandex.ru/d/qwwESfJkkO48Bw?w=1) and extract it into a folder `../saved_models/`.
 This can be either done manually or by
@@ -116,6 +116,7 @@ The data is supposed to be stored in `../data/`.
 ## Attribution
 
 - [PyTorch](https://github.com/pytorch/pytorch)
+- [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning](https://github.com/SamsungLabs/pytorch-ensembles)
 
