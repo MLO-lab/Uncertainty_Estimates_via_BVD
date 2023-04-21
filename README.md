@@ -116,6 +116,7 @@ The data is supposed to be stored in `../data/`.
 ## Attribution
 
 - [PyTorch](https://github.com/pytorch/pytorch)
+- [Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning](https://github.com/SamsungLabs/pytorch-ensembles)
 
 ## Citation
 
